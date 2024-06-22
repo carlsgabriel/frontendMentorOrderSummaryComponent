@@ -154,3 +154,30 @@ main{
     bottom: 0;
     right: 0;
 }
+
+@media(max-width:500px){
+    body{
+        background-image: url('images/pattern-background-mobile.svg');
+        background-size: contain;
+    }
+    main{
+        max-width: 400px;
+    }
+    .main-container-content{
+        padding: 25px;
+    }
+    .content-h1 h1{
+        font-size: 26px;
+    } 
+    .content-p p{
+        padding: 0 40px;
+        line-height: 1.6;
+    }
+    .content-plan{
+        margin-top: 28px;
+    }
+    .content-buttom-cancel{
+        margin-top: 25px;
+        margin-bottom: 8px;
+    }
+}
