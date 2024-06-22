@@ -1,1 +1,110 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: url('images/pattern-background-desktop.svg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Red Hat Display';
+    position: relative;
+}
+
+main{
+    background-color: hsl(0, 0%, 100%);
+    max-width: 450px;
+    border-radius: 20px;
+}
+
+.img img{
+    display: block;
+    max-width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.main-container-content{
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-h1 h1{
+    font-size: 27px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.content-p{
+    margin-top: 18px;
+}
+
+.content-p p{
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    line-height: 1.6;
+    text-align: center;
+}
+
+.content-plan{
+    width: 100%;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    margin-top: 18px;
+}
+
+.plan-container{
+    padding: 18px 25px;
+    display: flex;
+    align-items: center;
+}
+
+.plan-icon{
+    display: flex;
+    align-items: center;
+}
+
+.plan-flex{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan-price{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.price-text{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.price-price{
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+.plan-link{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.attribution{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
